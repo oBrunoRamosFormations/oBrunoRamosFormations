@@ -1,16 +1,18 @@
 ## Hi there 👋
 
-<!--
-**oBrunoRamosFormations/oBrunoRamosFormations** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+~~~shell
+@"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
+~~~
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+~~~shell
+choco install nodejs -y
+~~~
+~~~shell
+npm install -g typescript && tsc --init
+~~~
+~~~shell
+~~~
+~~~shell
+~~~
+~~~shell
+~~~
