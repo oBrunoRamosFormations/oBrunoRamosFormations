@@ -10,9 +10,11 @@ choco install nodejs -y
 ~~~shell
 npm install -g typescript && tsc --init
 ~~~
-~~~shell
+~~~json
+"scripts": {
+  "start:dev": "ts-node src/arquivo.ts"
+}
 ~~~
 ~~~shell
-~~~
-~~~shell
+npm run start:dev
 ~~~
